@@ -1,0 +1,119 @@
+
+
+
+    /*Först en bakgrundsbild sen en strukturering till färgen*/
+    body {background-color: rgb(245,245,220);
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");}
+
+     ul{text-align: center;}
+      li a:hover{background-color: rgba(101, 40, 40, 0.71)}
+
+      /*Stylar menyn*/
+      ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: rgb(135, 93, 49);}
+       li {float: left;}
+
+     /*Stylar delar av menyn*/
+       li a {display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;}
+
+       /*Centrerar bilden med rubriken*/
+      .text{display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
+
+      /*Centrerar videon*/
+      .video {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
+
+      /*Stylar texten för säsong 1*/
+      .s1 {text-align: center;
+        font-family: cursive, serif;
+        font-size: 36px;
+       border: 3px solid brown;}
+      .p1{font-family: Georgia, serif;
+        font-size: 20px}
+
+      /*Stylar texten för säsong 2*/
+      .s2 {text-align: center;
+      font-family: cursive, serif;
+      font-size: 36px;
+      border: 3px solid brown;}
+      .p2{font-family: Georgia, serif;
+      font-size: 20px}
+
+      /*Stylar texten för säsong 3*/
+      .s3 {text-align: center;
+      font-family: cursive, serif;
+      font-size: 36px;
+      border: 3px solid brown;}
+      .p3{font-family: Georgia, serif;
+      font-size: 20px}
+
+      /*Stylar texten för säsong 4*/
+      .s4 {text-align: center;
+      font-family: cursive, serif;
+      font-size: 36px;
+      border: 3px solid brown;}
+      .p4{font-family: Georgia, serif;
+      font-size: 20px}
+
+      /*Stylar texten för säsong 5*/
+      .s5 {text-align: center;
+      font-family: cursive, serif;
+      font-size: 36px;
+      border: 3px solid brown;}
+      .p5{font-family: Georgia, serif;
+      font-size: 20px}
+
+    /*Stylar så att del av menyn där muspekaren visar ändrar färg*/
+    li a:hover {background-color: #111;}
+    li {border-right: 1px solid #bbb;}
+
+    /*Stylar titeln i actors.html*/
+    h1{color:rgb(135, 93, 49);
+     text-align: center;
+     font-family: Georgia, sans-serif;
+     font-size: 36px;}
+
+     /*Centrerar bilden på Cillian Murphy*/
+    .mainman {display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;}
+
+    /*Centrerar namnet av på Cillian Murphy samt ger den en border*/
+    .cillian {text-align: center;
+      font-family: cursive, serif;
+      font-size: 24px;
+      border: 3px solid black;}
+
+    .annabild {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
+
+    .annabelle {text-align: center;
+        font-family: cursive, serif;
+        font-size: 24px;
+        border: 3px solid black;}
+
+    .shelbybros {display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;}
+
+    .shelbys {text-align: center;
+          font-family: cursive, serif;
+          font-size: 24px;
+          border: 3px solid black;}
